@@ -1,0 +1,16 @@
+coluna,tipo,distintos,minimo,maximo,moda,media,desvio_padrao,mediana
+Id,Numérico (identificador),5626,1,19129,1,10111.499,5880.171,10610.0
+Score,Numérico,68,-6,145,0,2.851,6.438,1.0
+ViewCount,Numérico,2521,2,273208,37,2534.68,9655.944,473.0
+AnswerCount,Numérico,10,0,9,1,1.285,0.989,1.0
+CommentCount,Numérico,16,0,17,0,0.918,1.766,0.0
+TituloTamanho,Numérico,136,15,150,55,60.932,22.644,58.0
+CorpoTamanho,Numérico,2448,61,29519,539,1367.874,1783.378,884.5
+NumTags,Numérico,1,0,0,0,0.0,0.0,0.0
+TemCodigo,Nominal,2,nao,sim,sim,,,
+HoraCriacao,Numérico,24,0,23,15,12.832,5.833,13.0
+DiaSemana,Nominal,7,Friday,Wednesday,Tuesday,,,
+AnoCriacao,Numérico,8,2017,2024,2019,2019.863,2.099,2020.0
+ReputacaoAutor,Numérico,320,1,13235,1,1065.839,2704.384,125.0
+IdadeContaDias,Numérico,1015,0,2552,0,205.395,389.698,4.0
+TemRespostaAceita,Nominal,2,nao,sim,nao,,,

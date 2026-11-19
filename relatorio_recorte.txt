@@ -1,0 +1,10 @@
+Recorte do Stack Exchange Data Dump - site: devops.stackexchange.com
+Fonte: https://archive.org/details/stackexchange (CC BY-SA 4.0)
+
+1. Posts.xml lido; mantidas apenas perguntas (PostTypeId=1): 5688 linhas.
+2. Users.xml lido: 38403 usuários.
+3. Removidas perguntas com campo obrigatório vazio (Id, CreationDate, Score, ViewCount, AnswerCount, CommentCount, Title, Body, Tags, OwnerUserId): 54 removidas, 5634 restantes.
+4. Junção com Users.xml por OwnerUserId; autores sem registro descartados: 0 removidas, 5634 restantes.
+5. Colunas derivadas criadas: TituloTamanho, CorpoTamanho, NumTags, TemCodigo, HoraCriacao, DiaSemana, AnoCriacao, IdadeContaDias; coluna alvo TemRespostaAceita (sim se AcceptedAnswerId existe, senão nao).
+6. Removidas linhas com idade da conta negativa (inconsistência): 8; total final: 5626 linhas e 15 colunas.
+7. Distribuição da coluna alvo TemRespostaAceita: nao=3271, sim=2355.
